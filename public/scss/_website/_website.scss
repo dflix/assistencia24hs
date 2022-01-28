@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    margin: 0px;
+}
+
+.row{
+    margin: 0px;
+}
+
+body{
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    color:#fff;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+ion-icon {
+    font-size: 1.2em;
+  }
+
+  .border_nav{
+    border-bottom: 5px solid $laranja;
+}
+
+#main_header{
+    width: 100%;
+    background: $laranja;
+    padding: 5px;
+}
+
+.box_header_left{
+    flex: 1 1 0;
+    min-height: 48%;
+    margin: 5px;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.box_header_right{
+    flex: 1 1 0;
+    min-height: 48%;
+    margin: 5px;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    background: $laranja;
+}
+
+.box_footer{
+    flex: 1 1 0;
+    min-height: 33%;
+    margin: 5px;
+    color:#fff;
+  
+}
+
+.box_footer_button{
+    margin: 0 auto;
+}
+
+.main_home{
+    background: url('./../image/guincho-e-reboque.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.mainhomebox{
+    position: absolute;
+    width: 70%;
+    min-height: 250px;
+    margin-top:100px;
+    margin-left:50px;
+    padding: 50px;
+    border-radius: 20px;
+    background: #000;
+    opacity: 0.6;
+    color:#fff; 
+}
+
+.mainhomefoldtwo{
+    background: url('./../image/home.png') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+    border-top: 10px solid #fff;
+    background-color: #034694;
+}
+.bloco3{
+    width: 100%;
+    border-radius: 10px;
+    background: #ccc;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.quem-somos{
+    background: url('./../image/assistencia24hs.png') no-repeat center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   min-height: 765px;
+   width: 100%;
+}
+.bloco-quem-somos{
+    position: absolute;
+    width:80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #000;
+    opacity: 0.765;
+    color: #fff;
+    padding: 40px;
+    margin-top: 30px;  
+}
+.beneficios{
+    background: url("./../image/bebeficios.jpg") no-repeat center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   min-height: 765px;
+   width: 100%;
+}
+.beneficios h1{
+    border-bottom: 2px solid #fff;
+}
+.beneficios h2{
+    color:orange;
+    text-transform: uppercase;
+}
+
+.bloco-beneficios{
+    position: relative;
+    width:80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #000;
+    opacity: 0.765;
+    color: #fff;
+    padding: 40px;
+    margin-top: 0px;
+    padding-top: 50px;   
+   
+}
+
+.assistencia{
+    background: url("./../image/guincho-e-reboque.png") no-repeat center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   min-height: 765px;
+   width: 100%;
+}
+.assistencia h1{
+   border-bottom: 2px solid #fff;
+}
+.assistencia h2{
+   color:orange;
+   text-transform: uppercase;
+}
+
+.bloco-assistencia{
+   position: relative;
+   width:80%;
+   margin: 0 auto;
+   border-radius: 15px;
+   background: #000;
+   opacity: 0.765;
+   color: #fff;
+   padding: 40px;
+   margin-top: 0px;
+   padding-top: 50px;   
+  
+}
+.contato{
+    background: url("./../image/banner-contato.jpeg") no-repeat center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   min-height: 765px;
+   width: 100%;
+}
+.contato h1{
+   border-bottom: 2px solid #fff;
+}
+.contato h2{
+   color:orange;
+   text-transform: uppercase;
+}
+
+.bloco-contato{
+   position: relative;
+   width:80%;
+   margin: 0 auto;
+   border-radius: 15px;
+   background: #000;
+   opacity: 0.765;
+   color: #fff;
+   padding: 40px;
+   margin-top: 0px;
+   padding-top: 50px;   
+  
+}
+
+
+@media screen and (max-width: 769px) {
+    #main_header{
+        display: none;
+    }
+    
+    
+    
+}
